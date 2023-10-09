@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+main {
+    width: 86%;
+    margin: 0 auto;
+}
+
+aside {
+    width: 100%;
+}
+.human{
+    background: #EFEFEF;
+    padding: 5px;
+}
+.Kurs-proshlo{
+    margin: 5% auto;
+    width: 86%;
+}
+.Kurs{
+    font-size: 3.5vw;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 101.385%;
+margin-bottom: 5%;
+}
+.ktxt{
+    font-size: 1.5vw;
+    line-height: 150%;
+}
+.woman-facebook{
+    display: flex;
+    margin-top: 5%;
+    height: 20%;
+}
+.imgg19{
+    width: 37%;
+}
+.Ekaterina{
+    font-size: 1.7vw;
+    font-family: 'Roboto Slab', serif;
+font-weight: 700;
+line-height: 272.385%;
+}
+.aside-card{
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0.46597px 0.46597px 9.31944px 0px rgba(0, 0, 0, 0.25);
+    padding: 45px 40px;
+    width: 61%;
+}
+.fcbkk{
+    width: 17%;
+    padding-left: 5%;
+}
+.div-img{
+    margin-top: 4%;
+    height: 20%;
+}
+
+@media screen and (min-width:320px) and (max-width:991px){
+    
+    .div-img{
+        margin-top: 5%;
+    }
+    .Kurs{
+        font-size: 7vw;
+    line-height: 101.385%;
+    width: 80%;
+    }
+    .aside-card{
+        padding: 18px 21px;
+        margin: auto;
+        width: 100%;
+        height: fit-content;
+    }
+    .ktxt{
+        font-size: 2.5vw;
+    }
+    .Ekaterina{
+        font-size: 2.5vw;
+    line-height: 272.385%;
+    }
+    .imgg19{
+        width: 37%;
+    }
+   
+}
